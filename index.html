@@ -19,6 +19,7 @@ header h1, p {
 
 .navbar {
   text-align: center;
+  margin-bottom: 5rem;
 }
 
 .navbar a {
@@ -39,6 +40,16 @@ li {
   font-size: 3rem;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(400px, auto);
+  grid-gap: 1em;
+}
+
+.box {
+  background-color: tan;
+}
 
 
   </style>
@@ -48,11 +59,11 @@ Git Course Initialization
 <link rel="stylesheet" href="trail.css">
 </head>
 <body>
-<h1>This is a trail 1</h1>
+<h1>This is a trail 7</h1>
 <p>This is a trail, an exercise. Nothing more!</p>
 <p>The trial repository inside the git-course repository is the only thing changing....</p>
 <header>
-  <h1>I just added trail2</h1>
+  <h1>I just added trail7</h1>
   <p>This is something different</p>
 </header>
 
@@ -68,6 +79,8 @@ Git Course Initialization
   </ul>
 </nav>
 
+
+<!-- Grid Area -->
 <div class="grid">
   <div class="box box1">1</div>
   <div class="box box2">2</div>
@@ -75,6 +88,8 @@ Git Course Initialization
   <div class="box box4">4</div>
   <div class="box box5">5</div>
   <div class="box box6">6</div>
+  <div class="box box7">7</div>
+  <div class="box box8">8</div>
 </div>
 </body>
 </html>
